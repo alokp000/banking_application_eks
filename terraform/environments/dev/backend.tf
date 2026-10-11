@@ -8,7 +8,7 @@ terraform {
   backend "s3" {
     bucket       = "banking-platform-tfstate-118178010323" # create once, then set here
     key          = "dev/networking.tfstate"
-    region       = "us-east-1"
+    region       = "ap-south-1"
     use_lockfile = true
     encrypt      = true
   }
